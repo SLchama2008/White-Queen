@@ -1,4 +1,4 @@
-const express = require("express");
+pconst express = require("express");
 const fs = require("fs");
 const { exec } = require("child_process");
 let router = express.Router();
@@ -81,7 +81,7 @@ router.get("/", async (req, res) => {
               ""
             );
 
-            const sid = `*White Queen [The powerful WA BOT]*\n\n👉 ${string_session} 👈\n\n*This is the your Session ID, copy this id and paste into config.js file*\n\n*You can ask any question using this link*\n\n*wa.me/message/WKGLBR2PCETWD1*\n\n*You can join my whatsapp group*\n\n*https://chat.whatsapp.com/GAOhr0qNK7KEvJwbenGivZ*`;
+            const sid = `*White Queen [The powerful WA BOT]*\n\n👉 ${string_session} 👈\n\n*This is the your Session ID, copy this id and paste into config.js file*\n\n*You can ask any question using this link*\n\n*wa.me/message/WKGLBR2PCETWD1*\n\n*අවශ්‍ය වුවහොත් මා සම්බන්ධ කර ගන්න 🥰*\n\n* https://wa.me/94783314361*\n\n*You can join my whatsapp channel*\n\n*https://whatsapp.com/channel/0029Vb0rCUr72WU3uq0yMg42*`;
             const mg = `🛑 *Do not share this code to anyone* 🛑`;
             const dt = await RobinPairWeb.sendMessage(user_jid, {
               image: {
